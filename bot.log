@@ -1,1 +1,18 @@
+PS C:\Users\Nagaraju\OneDrive\Desktop\trading_bot> python app.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
+>> python app.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price 60000
 
+📌 Order Request Summary
+{'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'price': None}
+
+✅ Order Response
+{'orderId': 287086, 'status': 'FILLED', 'executedQty': 0.001, 'avgPrice': 'market_price'}
+
+🎉 Order placed successfully!
+
+📌 Order Request Summary
+{'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 60000.0}
+
+✅ Order Response
+{'orderId': 499380, 'status': 'FILLED', 'executedQty': 0.001, 'avgPrice': 60000.0}
+
+🎉 Order placed successfully!
